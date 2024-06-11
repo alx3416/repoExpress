@@ -1,5 +1,9 @@
 # hola mundo en python
 import math
+import pandas as pd
+
+df = pd.read_excel('data/prueba.xlsx')
+print(df.head())
 
 def myFunction():
     print("Hola mundo")
